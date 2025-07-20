@@ -1,0 +1,51 @@
+---
+layoutTitle: Casey Kolderup
+---
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{{layoutTitle}}
+            {% if title | length %}- {{title}}
+            {% endif %}
+        </title>
+        <link rel="stylesheet" type="text/css" href="/default.css"/>
+    </head>
+    <body>
+        <nav>
+            <a href="/">
+                <div class="avatar-and-title">
+                    <img src="/me-circle-48.png">
+                    <span>Casey Kolderup</span>
+                </div>
+            </a>
+            <input type="checkbox" id="nav-toggle"/>
+            <label for="nav-toggle" class="hamburger"></label>
+            <ul>
+                <li>
+                    <a href="/projects">Projects</a>
+                </li>
+                <li>
+                    <a href="/writing">Writing</a>
+                </li>
+                <li>
+                    <a href="/me">Who?</a>
+                </li>
+                <li>
+                    <a href="/site">What?</a>
+                </li>
+                <li>
+                    <a href="/contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <article>
+            {% if title | length %}
+                <h1>{{ title }}</h1>
+            {% endif %}
+            {{ content | safe }}
+        </article>
+    </body>
+</html>

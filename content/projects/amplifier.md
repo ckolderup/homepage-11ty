@@ -1,0 +1,4 @@
+---
+title: Amplifier
+icon: speaker
+---
