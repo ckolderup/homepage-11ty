@@ -5,10 +5,10 @@ date: git Last Modified
 
 {%- for project in collections.projects -%}
 
-<section class="project-card">
-    <img class="sigil {{project.data.icon | default("blur-radial")}}"/>
-    <h2>{{project.data.title}}</h2>
-    <div class="description">
+<div class="project-card">
+    <a href="{{project.url}}"><img class="sigil {{project.data.icon | default("blur-radial")}}"/></a>
+    <a href="{{project.url}}"><h2>{{project.data.title}}</h2></a>
+    <div class="description">{{project.data.description}}
     </div>
-</section>
+</div>
 {%- endfor -%}

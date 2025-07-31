@@ -1,6 +1,8 @@
 ---
 title: The Hunger Names
 icon: sword
+description: A single-serving site from 2012 poking fun at the Hunger Games franchise
+date: 2012-03-01
 ---
 
 https://hungernames.com/

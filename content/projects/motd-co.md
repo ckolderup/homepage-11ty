@@ -1,6 +1,8 @@
 ---
 title: motd.co
 icon: pencil
+date: 2013-06-28
+description: The website where my blog is
 ---
 
 <div class="iframely-embed"><div class="iframely-responsive" style="padding-bottom: 74.0143%; padding-top: 120px;"><a href="https://motd.co" data-iframely-url="//iframely.net/KeCqU0zf?theme=auto"></a></div></div><script async src="//iframely.net/embed.js"></script>

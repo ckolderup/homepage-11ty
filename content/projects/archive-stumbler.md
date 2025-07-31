@@ -1,6 +1,8 @@
 ---
 icon: die
 title: Archive Stumbler
+description: a fun tool for browsing the Internet Archive with a bit of serendipity.
+date: 2023-05-10
 ---
 
 <div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://verysafe.click.glitch.me" data-iframely-url="//iframely.net/bbCjoBCw?theme=auto"></a></div></div><script async src="//iframely.net/embed.js"></script>

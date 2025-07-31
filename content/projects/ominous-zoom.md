@@ -1,6 +1,8 @@
 ---
 icon: binoculars
 title: Ominous Zoom
+date: 2015-10-01
+description: A Twitter bot that zooms in on things in an ominous way
 ---
 
 https://twitter.com/ominouszoom

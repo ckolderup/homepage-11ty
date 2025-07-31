@@ -1,6 +1,8 @@
 ---
 icon: music-circle
 title: Backtracks
+description: A weekly email that summarizes your last.fm history
+date: 2014-06-17
 ---
 
 There are two websites you have to know in order to fully understand Backtracks and why I made it.

@@ -1,6 +1,5 @@
 const { DateTime } = require("luxon");
 const markdownIt = require("markdown-it");
-
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginBundle = require("@11ty/eleventy-plugin-bundle");
@@ -63,11 +62,7 @@ module.exports = async function (eleventyConfig) {
     });
 
     eleventyConfig.addCollection("projects", function (collectionApi) {
-        return collectionApi.getFilteredByGlob("content/projects/*.md");
-    });
-
-    eleventyConfig.addCollection("reverseChron", function (collectionApi) {
-        return collectionApi.getFilteredByGlob("content/post/*.md").reverse(); // lol sorry
+        return collectionApi.getFilteredByGlob("content/projects/*.md").reverse();
     });
 
     // Filters
@@ -156,7 +151,10 @@ module.exports = async function (eleventyConfig) {
         linkify: true,
     })
         .enable(["newline"])
-        .disable("code");
+        .disable("code")
+        .use(require('markdown-it-anchor'));
+
+
 
     eleventyConfig.addFilter("markdown", (text) => {
         return mdLib.render(text);

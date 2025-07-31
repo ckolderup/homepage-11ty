@@ -1,6 +1,8 @@
 ---
 icon: microphone
 title: Abstract Factory
+description: A podcast from 2014 about technology.
+date: 2014-03-03
 ---
 
 <div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://www.abstractfactory.tv/" data-iframely-url="//iframely.net/z9QW8nmO?theme=auto"></a></div></div><script async src="//iframely.net/embed.js"></script>

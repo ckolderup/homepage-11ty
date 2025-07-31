@@ -2,6 +2,7 @@
   "scripts": {
     "build": "npx @11ty/eleventy",
     "start": "npx @11ty/eleventy --serve --quiet --port=5080",
+    "publish": "npm run build && scp -r ./build/* kolderup.org:casey.kolderup.org",
     "clean": "rm -rf build",
     "debug": "DEBUG=Eleventy* npx @11ty/eleventy",
     "debugstart": "DEBUG=Eleventy* npx @11ty/eleventy --serve --quiet",
@@ -18,6 +19,7 @@
     "eleventy-plugin-embed-everything": "^1.19.0",
     "he": "^1.2.0",
     "luxon": "^3.5.0",
+    "markdown-it-anchor": "^9.2.0",
     "yaml": "^2.8.0"
   }
 }

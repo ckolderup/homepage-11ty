@@ -1,6 +1,8 @@
 ---
 title: Nethack Nights
 icon: at-sign
+date: 2016-01-18
+description: A Twitch stream from 2016 + its YouTube "VOD" archive where I played Nethack for a live audience
 ---
 
 https://youtube.com/playlist?list=PLmzCFNxD4aMcoURsq-KsM1PtZ4M-NwXhd

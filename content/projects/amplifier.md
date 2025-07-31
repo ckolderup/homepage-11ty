@@ -1,6 +1,8 @@
 ---
 title: Amplifier
 icon: speaker
+description: a newsletter of music recommendations
+date: 2016-11-15
 ---
 
 https://amplifier.backtracks.co
