@@ -1,5 +1,6 @@
 ---
 title: Projects
+description: some projects I've worked on
 date: git Last Modified
 ---
 

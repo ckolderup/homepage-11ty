@@ -1,5 +1,7 @@
 ---
 date: git Last Modified
+title: My Personal Homepage
+description: it's where I keep all my stuff!
 ---
 
 <section class="front-page-feature">

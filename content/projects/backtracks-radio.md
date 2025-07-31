@@ -1,7 +1,7 @@
 ---
 icon: radio
 title: Backtracks Radio
-description: a streaming radio station
+description: a streaming radio station, a beacon, a memory
 date: 2021-02-06
 ---
 

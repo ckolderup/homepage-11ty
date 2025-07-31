@@ -1,5 +1,6 @@
 ---
 title: Colophon
+description: about this website
 date: git Last Modified
 ---
 

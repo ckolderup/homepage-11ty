@@ -1,5 +1,6 @@
 ---
-title: Casey
+title: Casey Kolderup
+description: about me!
 date: git Last Modified
 ---
 
