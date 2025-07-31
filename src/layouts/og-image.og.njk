@@ -1,0 +1,33 @@
+<style>
+    .root {
+        width: 667px;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 0;
+        background-image: url({% inlineImage "../public/blank-card.png", "image/png" %});
+    }
+
+    .root * {
+        color: black;
+        margin-left: 50px;
+        max-width: 570px;
+        margin-block: 24px;
+    }
+
+    .title {
+        font-weight: bold;
+        font-size: 48px;
+    }
+    .description {
+        font-weight: normal;
+        font-size: 24px;
+
+    }
+</style>
+
+<div class="root">
+    <h1 class="title">{{ title }}</h1>
+    <h2 class="description">{{ description }}</h2>
+</div>

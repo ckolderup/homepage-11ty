@@ -12,6 +12,8 @@ const pluginImages = require("./eleventy.config.images.js");
 const embeds = require("eleventy-plugin-embed-everything");
 const slugify = require("slugify");
 const he = require("he");
+const fs = require("fs");
+const path = require("node:path");
 
 const OUTPUT_DIR = "build";
 
@@ -41,6 +43,48 @@ module.exports = async function (eleventyConfig) {
     eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
     eleventyConfig.addPlugin(pluginBundle);
     eleventyConfig.addPlugin(pluginCacheBuster({ outputDirectory: OUTPUT_DIR }));
+
+    const { default: EleventyPluginOgImage } = (await import('eleventy-plugin-og-image'));
+
+    eleventyConfig.addNunjucksAsyncShortcode('inlineImage', async (imagePath, imageMimetype) => {
+        const base64Image = fs.readFileSync(path.join(eleventyConfig.directories.input, imagePath), { encoding: 'base64' });
+
+        return `data:${imageMimetype};base64,${base64Image}`;
+    });
+
+
+    eleventyConfig.addPlugin(EleventyPluginOgImage, {
+        satoriOptions: {
+            width: 667,
+            height: 350,
+            fonts: [
+                {
+                    name: 'Public Sans',
+                    data: fs.readFileSync('./public/fonts/PublicSans-Regular.woff'),
+                    weight: 400,
+                    style: 'normal',
+                },
+                {
+                    name: 'Public Sans Bold',
+                    data: fs.readFileSync('./public/fonts/PublicSans-Bold.woff'),
+                    weight: 700,
+                    style: 'normal',
+                },
+                {
+                    name: 'Public Sans Italic',
+                    data: fs.readFileSync('./public/fonts/PublicSans-Italic.woff'),
+                    weight: 400,
+                    style: 'italic',
+                },
+                {
+                    name: 'Public Sans Bold Italic',
+                    data: fs.readFileSync('./public/fonts/PublicSans-BoldItalic.woff'),
+                    weight: 700,
+                    style: 'italic',
+                },
+            ],
+        }
+    });
 
     // Bundle js snippets
     eleventyConfig.addBundle("js");

@@ -9,7 +9,7 @@
     "benchmark": "DEBUG=Eleventy:Benchmark* npx @11ty/eleventy"
   },
   "dependencies": {
-    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy": "^3.1.2",
     "@11ty/eleventy-img": "^3.1.1",
     "@11ty/eleventy-navigation": "^0.3.5",
     "@11ty/eleventy-plugin-bundle": "^2.0.0",
@@ -17,6 +17,7 @@
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
     "@mightyplow/eleventy-plugin-cache-buster": "github:top-ghost/eleventy-plugin-cache-buster#e9a6145c5ecff4e379c656681dc227dceb4e6b59",
     "eleventy-plugin-embed-everything": "^1.19.0",
+    "eleventy-plugin-og-image": "^4.2.0",
     "he": "^1.2.0",
     "luxon": "^3.5.0",
     "markdown-it-anchor": "^9.2.0",
