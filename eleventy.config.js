@@ -54,6 +54,7 @@ module.exports = async function (eleventyConfig) {
 
 
     eleventyConfig.addPlugin(EleventyPluginOgImage, {
+        previewMode: false, // reenable in order to test in dev
         satoriOptions: {
             width: 667,
             height: 350,

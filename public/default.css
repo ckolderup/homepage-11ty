@@ -287,23 +287,34 @@ article blockquote {
   mask-image: url(/sigils/sword.svg);
 }
 
+.rss {
+  mask-image: url(/sigils/rss.svg);
+}
+
+.sound {
+  mask-image: url(/sigils/sound.svg);
+}
+
 /* - index.md - */
 
 .front-page-feature {
   max-width: 450px;
   margin-block: 72px;
   margin-inline: auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 1rem;
 }
 
 .front-page-feature * img {
-  width: 72px;
-  aspect-ratio: 1 / 1;
+  width: 100%;
 }
 
 .front-page-feature div {
+  width: 72px;
+  aspect-ratio: 1 / 1;
   --translate-x: 0px;
   --translate-y: 0px;
   --rotation: 0deg;
