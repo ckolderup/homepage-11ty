@@ -18,7 +18,7 @@
 
   --syntax-tab-size: 2;
 
-  --nearly-background: var(--color-gray-1);
+  --nearly-background: #eee;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -33,7 +33,7 @@
     --text-color-link-visited: var(--color-purple-2);
 
     --background-color: var(--color-gray-1);
-    --nearly-background: var(--color-gray24);
+    --nearly-background: #222;
   }
 }
 
