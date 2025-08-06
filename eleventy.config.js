@@ -115,7 +115,6 @@ module.exports = async function (eleventyConfig) {
 
         const result = new Array();
         while (projects.length > 0) {
-            console.log(`projects.length = ${projects.length}`);
             if (Math.random() > .33) {
                 result.push(projects.pop());
             } else {
