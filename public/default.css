@@ -9,6 +9,7 @@
   --color-purple-3: #713aa9;
   --color-purple-4: #5202c2;
 
+  --nearly-background: #efefef;
   --background-color: #fff;
 
   --text-color: var(--color-gray-4);
@@ -17,8 +18,6 @@
   --text-color-link-visited: var(--color-purple-3);
 
   --syntax-tab-size: 2;
-
-  --nearly-background: #eee;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -33,7 +32,7 @@
     --text-color-link-visited: var(--color-purple-2);
 
     --background-color: var(--color-gray-1);
-    --nearly-background: #222;
+    --nearly-background: #212121;
   }
 }
 
@@ -193,7 +192,7 @@ img + .caption {
 }
 
 article {
-  width: 80%;
+  width: 84%;
   margin-inline: auto;
   max-width: 720px;
 }
@@ -301,14 +300,14 @@ article blockquote {
 /* - index.md - */
 
 .front-page-feature {
-  max-width: 450px;
+  max-width: 640px;
   margin-block: 72px;
   margin-inline: auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 0.5rem;
+  gap: 1.5rem;
 }
 
 .front-page-feature * img {
@@ -379,6 +378,13 @@ article blockquote {
 
 .front-page-feature .sigil.blur-radial {
   background-color: var(--nearly-background) !important;
+}
+
+@media (max-width: 440px) {
+  .front-page-feature {
+    gap: unset;
+    translate: -12px 0;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
