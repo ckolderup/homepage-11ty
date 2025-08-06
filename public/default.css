@@ -308,7 +308,7 @@ article blockquote {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 1rem;
+  gap: 0.5rem;
 }
 
 .front-page-feature * img {
