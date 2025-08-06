@@ -110,6 +110,22 @@ module.exports = async function (eleventyConfig) {
         return collectionApi.getFilteredByGlob("content/projects/*.md").reverse();
     });
 
+    eleventyConfig.addCollection("projectsWithFuzzing", function (collectionApi) {
+        const projects = collectionApi.getFilteredByGlob("content/projects/*.md");
+
+        const result = new Array();
+        while (projects.length > 0) {
+            console.log(`projects.length = ${projects.length}`);
+            if (Math.random() > .33) {
+                result.push(projects.pop());
+            } else {
+                result.push(null);
+            }
+        }
+
+        return result;
+    })
+
     // Filters
     eleventyConfig.addFilter("slug", (str) => {
         return slugify(he.decode(str), { remove: /[&,+()$~%.'":*?<>{}]/g });

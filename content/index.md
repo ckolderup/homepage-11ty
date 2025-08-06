@@ -5,15 +5,19 @@ description: it's where I keep all my stuff!
 ---
 
 <section class="front-page-feature">
-{%- for project in collections.projects -%}
+{%- for project in collections.projectsWithFuzzing -%}
     <div>
-        <a href="{{project.url}}">
+        {%- if project.url %}
+        <a href="{{project.url }}">
+        {% endif -%}
             <img
                 src="/sigils/empty.png"
                 class="l sigil {{project.data.icon | default("blur-radial")}}"
                 alt="a hand-drawn illustration of a {{project.data.icon | default("a circular dotted placeholder icon")}}"
             />
+        {%- if project.url %}
         </a>
+        {% endif -%}
     </div>
 {%- endfor -%}
 </section>

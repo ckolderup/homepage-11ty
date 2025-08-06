@@ -16,7 +16,9 @@
   --color-purple-1: #8534f6;
   --color-purple-2: #5f25b1;
   --color-purple-3: #421a7a;
-  --color-purple-4: #301259;
+  --color-purple-4: #270655;
+
+  --nearly-background: var(--color-gray-1);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -30,7 +32,8 @@
     --text-color-link-active: #9e5df9;
     --text-color-link-visited: #712fcf;
 
-    --background-color: #1a1a1a;
+    --background-color: var(--color-gray-1);
+    --nearly-background: var(--color-gray-2);
   }
 }
 
@@ -374,21 +377,25 @@ article blockquote {
   background-color: var(--color-purple-3);
 }
 
+.front-page-feature .sigil.blur-radial {
+  background-color: var(--nearly-background) !important;
+}
+
 @media (prefers-color-scheme: dark) {
   .front-page-feature div:nth-child(n) .sigil {
-    background-color: var(--color-gray-2);
+    background-color: var(--color-purple-3);
   }
 
   .front-page-feature div:nth-child(2n) .sigil {
-    background-color: var(--color-gray-3);
+    background-color: var(--color-purple-4);
   }
 
   .front-page-feature div:nth-child(3n) .sigil {
-    background-color: var(--color-gray-4);
+    background-color: var(--color-purple-1);
   }
 
   .front-page-feature div:nth-child(5n) .sigil {
-    background-color: white;
+    background-color: var(--color-purple-2);
   }
 }
 
