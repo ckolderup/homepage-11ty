@@ -102,8 +102,8 @@ module.exports = async function (eleventyConfig) {
     });
 
     // Collections
-    eleventyConfig.addCollection("posts", function (collectionApi) {
-        return collectionApi.getFilteredByGlob("content/post/*.md");
+    eleventyConfig.addCollection("writing", function (collectionApi) {
+        return collectionApi.getFilteredByGlob("content/writing/*.md").reverse();
     });
 
     eleventyConfig.addCollection("projects", function (collectionApi) {
@@ -203,6 +203,10 @@ module.exports = async function (eleventyConfig) {
 
         return result;
     });
+
+    eleventyConfig.addFilter("writingDateFormat", (date) => {
+        return DateTime.fromFormat(date, "yyyy-MM-dd").toFormat("dd MMMM yyyy");
+    })
 
     const mdLib = markdownIt({
         breaks: true,
