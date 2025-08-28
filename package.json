@@ -2,7 +2,7 @@
   "scripts": {
     "build": "npx @11ty/eleventy",
     "start": "npx @11ty/eleventy --serve --quiet --port=5080",
-    "publish": "npm run build && scp -r ./build/* kolderup.org:casey.kolderup.org",
+    "publish": "npm run build && rsync -atzP ./build/ kolderup.org:casey.kolderup.org",
     "clean": "rm -rf build",
     "debug": "DEBUG=Eleventy* npx @11ty/eleventy",
     "debugstart": "DEBUG=Eleventy* npx @11ty/eleventy --serve --quiet",
