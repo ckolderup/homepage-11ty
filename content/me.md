@@ -28,6 +28,8 @@ I like a good technical challenge but I'm of the opinion that the best work I do
 
 I hope there's always some amount of coding in my job but the times that I have found the most success I have had a lot of other responsibilities that, in my mind, have to come first: communicating, writing, arguing (respectfully!), presenting, thinking about team structure and processes, and building community among teammates and across teams within a business or partnership. I think if you sacrifice these things, the output of the coding work will either suffer or be limited in its impact.
 
+I want to give your team what it needs: the vibe-improver, the engineer who will actually attend your meetings, the green-field prototyper, the incident manager, or the slightly annoying person you know is right about ethics and user focus. I want to help you make the right decisions that will help you today and also avoid a lot of pain six months from now.
+
 ## My Resume
 
 [I've got one!](/resume)

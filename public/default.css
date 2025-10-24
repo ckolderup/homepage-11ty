@@ -81,6 +81,13 @@ body {
   font-size: 18px;
 }
 
+@media print {
+  body {
+    line-height: 1.25;
+    font-size: 12px;
+  }
+}
+
 p:last-child {
   margin-bottom: 0;
 }
@@ -182,6 +189,28 @@ nav ul {
   }
 }
 
+footer {
+  width: 85%;
+  margin-inline: auto;
+  display: grid;
+  border-top: 1px dashed var(--text-color);
+  justify-content: end;
+  align-items: center;
+}
+
+footer ul {
+  grid-column: 2;
+  font-size: 1rem;
+  margin-left: initial;
+  list-style-type: none;
+  padding: inherit;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 0 1rem;
+}
+
 img + .caption {
   width: 60%;
   margin-inline: auto;
@@ -195,6 +224,8 @@ article {
   width: 84%;
   margin-inline: auto;
   max-width: 720px;
+  min-height: 500px;
+  margin-block-end: 24px;
 }
 
 article img {
