@@ -6,7 +6,7 @@ date: "2025-02-01"
 
 _This is a mirror of a blog post written in 2025. You can see it at its original home [on my blog MOTD](https://motd.co/2025/02/fosdem-2025-postmarks/)._
 
-_I had the pleasure of giving a talk in the Social Web room at FOSDEM 2025. It was suggested during the call for submissions that I talk about [launching](motd.co/2023/09/postmarks-launch) my project [Postmarks](https://sharepostmarks.org), but I had a feeling while working on my pitch that I had something a little more complicated to talk about. Below is what I ended up writing and delivering to the room._
+_I had the pleasure of giving a talk in the Social Web room at FOSDEM 2025. It was suggested during the call for submissions that I talk about [launching](https://motd.co/2023/09/postmarks-launch) my project [Postmarks](https://sharepostmarks.org), but I had a feeling while working on my pitch that I had something a little more complicated to talk about. Below is what I ended up writing and delivering to the room._
 
 _Apologies in advance for all the unnecessary punctuation; they were speed bumps put in place for my too-fast speaking. (They didn't work.)_
 
