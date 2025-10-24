@@ -85,6 +85,10 @@ body {
   body {
     line-height: 1.25;
     font-size: 12px;
+
+    footer {
+      display: none;
+    }
   }
 }
 
