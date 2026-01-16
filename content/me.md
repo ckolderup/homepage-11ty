@@ -20,6 +20,8 @@ Since the mid-2000s I've been working as a software engineer. Most recently, I w
 - speak up for what's right, and
 - advocate for all of _us_ to do all of _that_
 
+I live in Portland, OR but have worked remotely from my home office since 2014. I'm happy to travel periodically to visit offices or go to special events. I would also be open to negotiating an in-office work situation if it's in the PDX area.
+
 My job title usually looks something like "full stack engineer" or "product engineer". My work experience tends toward the backend, especially around the API layer, but I like having the opportunity to keep up to speed (and be helpful) on some amount of frontend development and I appreciate the freedom/autonomy afforded by doing a little bit of infrastructure/ops work as well.
 
 This next bit could maybe sound like some kind of hot air about what a good team player I am but hopefully by writing this disclaimer I'll make it clear that I actually believe this is the important part of what finds me work where I'll be happy and productive:

@@ -1,13 +1,17 @@
 ---
+title: Resume (compact version)
 description: my compact resume
 date: git Last Modified
 ---
 
+## Info
+
+Living in: Portland, OR, USA, GMT-8 (GMT-7 during DST)
 Email: `casey@kolderup.org`
 
 ## What I'm Looking For
 
-An opportunity to work as a product-focused engineer and senior member of your team, building new products, maintaining well-established ones, and understanding the business enough to provide technically-minded, user-aware insights to product managers and stakeholders. [Read more on my hire me page!](/me#hire-me)
+An opportunity to work, remotely or in the Portland, OR area, as a product-focused engineer and senior member of your team, building new products, maintaining well-established ones, and understanding the business enough to provide technically-minded, user-aware insights to product managers and stakeholders. [Read more on my hire me page!](/me#hire-me)
 
 ## Experience
 
