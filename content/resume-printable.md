@@ -1,10 +1,7 @@
 ---
-title: My Work Experience
 description: my compact resume
 date: git Last Modified
 ---
-
-## Info
 
 Living in: Portland, OR, USA, GMT-8 (GMT-7 during DST)
 Email: `casey@kolderup.org`
