@@ -1,5 +1,5 @@
 ---
-title: Resume (compact version)
+title: My Work Experience
 description: my compact resume
 date: git Last Modified
 ---
