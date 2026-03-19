@@ -8,16 +8,13 @@ Email: `casey@kolderup.org`
 
 ## What I'm Looking For
 
-An opportunity to work, remotely or in the Portland, OR area, as a product-focused engineer and senior member of your team, building new products, maintaining well-established ones, and understanding the business enough to provide technically-minded, user-aware insights to product managers and stakeholders. [Read more on my hire me page!](/me#hire-me)
+An opportunity to work, remotely or in the Portland, OR area, as a product-focused engineer and senior member of your team, building new products, maintaining well-established ones, and understanding the business enough to provide technically-minded, user-aware insights to product managers and stakeholders. [Read more on my hire me page](/me#hire-me), or for a more detailed version of this resume, check out [my full resume](/resume))!
 
 ## Experience
 
-(For more detail, read [my online resume](/resume))
-
 ### Fastly - Staff Engineer/Team Lead (2022-2025)
 
-- acted as Glitch's tech lead during product shutdown planning and execution
-- also acted as Glitch's tech lead during gaps in Engineering Management
+- acted as Glitch's tech lead during product shutdown planning and execution as well as during two gaps in formal engineering management
 - built integrations between Glitch's product and Fastly's core product offerings
 - handled large-scale platform abuse
 - worked with customer support to improve their processes & tooling
