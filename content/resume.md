@@ -12,21 +12,21 @@ Need [a compact version of this resume?](/resume-printable)
 
 ## What I'm Looking For
 
-An opportunity to work, remotely or in the Portland, OR area, as a product-focused engineer and senior member of your team, building new products, maintaining well-established ones, and understanding the business enough to provide technically-minded, user-aware insights to product managers and stakeholders. [Read more on my hire me page!](/me#hire-me)
+An opportunity to work, remotely or in the Portland, OR area, as an engineering manager; leading a team to build new products, maintain well-established ones, and coordinate with people across teams and roles. [Read more on my hire me page!](/me#hire-me)
 
 ## Recent Experience
 
-### Fastly - Staff Engineer (2022-2025)
+### Fastly - Staff Engineer/Team Lead (2022-2025)
 
-- acted as Glitch's tech lead during two different periods where there was no official Engineering Manager assigned to the team
-- built Fastly API key integration into Glitch Editor
+- acted as the engineering lead for the planning of Glitch's shutdown, advocating for user benefit and data access within the constraints of the timeline & budget needs presented to us
+- also acted as Glitch's engineering lead during periods where there was no official Engineering Manager assigned to the team, performing all daily engineering manager duties
+- mentored interns assigned to Glitch as part of Fastly's internship program
 - wrote technical recommendations on the potential use of software like Nix, git, and the ActivityPub protocol to internally proposed evolutions of Glitch's platform
 - led multiple efforts to rid the Glitch platform of bad actors / unwanted user-generated content: identifying, investigating, educating the team, and building & maintaining automated tools to reduce its harm
+- built Fastly API key integration into Glitch Editor
 - built an event-based Webhooks feature on the Glitch platform
 - built "external projects", allowing Glitch users to expand their user profiles to showcase projects built elsewhere on the web
 - provided guidance to our Customer Support team navigating users' technical questions and needs and improving the tools they used to manage abuse, user subscriptions
-- mentored interns assigned to Glitch as part of Fastly's internship program
-- acted as the engineering lead for the planning of Glitch's shutdown, advocating for user benefit and data access within the constraints of the timeline & budget needs presented to us
 
 ### Glitch - Staff Engineer (2021-2022)
 

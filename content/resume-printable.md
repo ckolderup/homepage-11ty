@@ -14,9 +14,10 @@ An opportunity to work, remotely or in the Portland, OR area, as a product-focus
 
 (For more detail, read [my online resume](/resume))
 
-### Fastly - Staff Engineer (2022-2025)
+### Fastly - Staff Engineer/Team Lead (2022-2025)
 
-- acted as Glitch's tech lead during gaps in Engineering Management
+- acted as Glitch's tech lead during product shutdown planning and execution
+- also acted as Glitch's tech lead during gaps in Engineering Management
 - built integrations between Glitch's product and Fastly's core product offerings
 - handled large-scale platform abuse
 - worked with customer support to improve their processes & tooling
