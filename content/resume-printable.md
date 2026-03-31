@@ -8,7 +8,7 @@ Email: `casey@kolderup.org`
 
 ## What I'm Looking For
 
-An opportunity to work, remotely or in the Portland, OR area, as a product-focused engineer and senior member of your team, building new products, maintaining well-established ones, and understanding the business enough to provide technically-minded, user-aware insights to product managers and stakeholders. [Read more on my hire me page](/me#hire-me), or for a more detailed version of this resume, check out [my full resume](/resume))!
+An opportunity to work, remotely or in the Portland, OR area, as an engineering manager; leading a team to build new products, maintain well-established ones, and coordinate with people across teams and roles. [Read more on my hire me page](/me#hire-me), or for a more detailed version of this resume, check out [my full resume](/resume))!
 
 ## Experience
 
